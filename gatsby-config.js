@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jefferson Brandão - Blog`,
+    title: `Jefferson Brandão`,
     position: `Backend Developer`,
     description: `Apaixonado por programação, escrevo sobre as noticias do universo TI.`,
     author: `@jeffersonbrandao`,
