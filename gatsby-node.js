@@ -29,9 +29,6 @@ exports.createPages = ({ graphql, actions }) => {
       allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
         edges {
           node {
-            fields {
-              slug
-            }
             frontmatter {
               background
               category
@@ -40,6 +37,25 @@ exports.createPages = ({ graphql, actions }) => {
               title
             }
             timeToRead
+            fields {
+              slug
+            }
+          }
+          next {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+          previous {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
           }
         }
       }
@@ -47,12 +63,14 @@ exports.createPages = ({ graphql, actions }) => {
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
 
-    posts.forEach(({ node }) => {
+    posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve("./src/templates/blog-post.js"),
         context: {
           slug: node.fields.slug,
+          previosPost: next,
+          nextPost: previous,
         },
       })
     })
