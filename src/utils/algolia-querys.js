@@ -10,10 +10,11 @@ const postQuery = `{
         }
         frontmatter {
           category
+          background
           date_timestamp: date
           date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
           description
-          title
+          title          
         }
         excerpt(pruneLength: 5000)
       }

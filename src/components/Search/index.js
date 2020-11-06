@@ -1,6 +1,7 @@
 import React from "react"
 import { InstantSearch, SearchBox, Hits, Stats } from "react-instantsearch-dom"
 import algoliasearch from "algoliasearch/lite"
+import Hit from "./Hit"
 import * as S from "./styles"
 
 const algolia = {
@@ -22,7 +23,7 @@ const Search = () => (
           },
         }}
       />
-      <Hits />
+      <Hits hitComponent={Hit} />
     </InstantSearch>
   </S.SearchWrapper>
 )
