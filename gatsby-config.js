@@ -48,6 +48,8 @@ module.exports = {
             },
           },
           `gatsby-remark-lazy-load`,
+          //prismjs deixa o highlight do codigo bonito na tela, precisa ser sempre o ultimo plugin
+          `gatsby-remark-prismjs`,
         ],
       },
     },
