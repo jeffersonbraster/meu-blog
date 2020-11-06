@@ -1,4 +1,4 @@
-import path from "path"
+const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 //adicionando o campo slug para cada um dos posts
