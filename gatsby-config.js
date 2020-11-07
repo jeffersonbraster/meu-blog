@@ -8,6 +8,7 @@ module.exports = {
     position: `Backend Developer`,
     description: `Apaixonado por programação, escrevo sobre as noticias do universo TI.`,
     author: `@jeffersonbrandao`,
+    siteURL: `https://jeffersonbrandao.com.br`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,

@@ -19,7 +19,11 @@ const BlogList = props => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO
+        title="Home"
+        descriptio={postList.frontmatter.description}
+        image={postList.frontmatter.image}
+      />
       <S.ListWrapper>
         {postList.map(
           ({
@@ -73,6 +77,7 @@ export const query = graphql`
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
+            image
           }
           timeToRead
         }
