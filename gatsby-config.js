@@ -8,7 +8,7 @@ module.exports = {
     position: `Backend Developer`,
     description: `Apaixonado por programação, escrevo sobre as noticias do universo TI.`,
     author: `@jeffersonbrandao`,
-    siteURL: `https://jeffersonbrandao.com.br`,
+    siteUrl: `https://jeffersonbrandao.com.br`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -87,6 +87,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
