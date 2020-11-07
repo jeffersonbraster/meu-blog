@@ -20,7 +20,7 @@ function SEO({ description, lang, meta, title, image }) {
   )
 
   const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image}`
+  const ogImage = `${url}${image || "/assets/img/cover.jpg"}`
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
