@@ -1,6 +1,7 @@
 import React from "react"
 import propTypes from "prop-types"
 import * as S from "./styles"
+import getThemeColor from "../../utils/getThemeColor"
 
 const RecommendedPosts = ({ next, previous }) => (
   <S.RecommendedWrapper>
@@ -10,7 +11,7 @@ const RecommendedPosts = ({ next, previous }) => (
         cover
         direction="left"
         duration={0.6}
-        bg="#16202c"
+        bg={getThemeColor()}
         className="previous"
       >
         {previous.frontmatter.title}
@@ -23,7 +24,7 @@ const RecommendedPosts = ({ next, previous }) => (
         cover
         direction="right"
         duration={0.6}
-        bg="#16202c"
+        bg={getThemeColor()}
         className="next"
       >
         {next.frontmatter.title}

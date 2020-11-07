@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import * as S from "./styles"
+import getThemeColor from "../../utils/getThemeColor"
 
 import { Home } from "@styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
@@ -33,7 +34,7 @@ const MenuBar = () => {
           cover
           direction="right"
           duration={0.6}
-          bg="#16202c"
+          bg={getThemeColor()}
         >
           <S.MenuBarItem>
             <Home />
@@ -45,7 +46,7 @@ const MenuBar = () => {
           cover
           direction="right"
           duration={0.6}
-          bg="#16202c"
+          bg={getThemeColor()}
         >
           <S.MenuBarItem>
             <Search />

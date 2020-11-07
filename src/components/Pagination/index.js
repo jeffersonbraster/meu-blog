@@ -2,6 +2,7 @@ import React from "react"
 import propTypes from "prop-types"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import * as S from "./styles"
+import getThemeColor from "../../utils/getThemeColor"
 
 const Pagination = ({
   isFirst,
@@ -25,7 +26,7 @@ const Pagination = ({
         to={nextPage}
         cover
         direction="right"
-        bg="#16202c"
+        bg={getThemeColor()}
         duration={0.6}
       >
         Proxima página →
