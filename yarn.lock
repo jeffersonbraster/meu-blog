@@ -6904,7 +6904,7 @@ gatsby-plugin-manifest@^2.2.4:
     semver "^7.3.2"
     sharp "^0.25.4"
 
-gatsby-plugin-netlify-cms@^4.1.9:
+gatsby-plugin-netlify-cms@^4.3.17:
   version "4.3.17"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.3.17.tgz#1740a00c3959fc97ca4671a5fff8ae9da6b06837"
   integrity sha512-2pHT47cldT9bYLtyK2f7vgxHy57uTtPhd1Breb4PNYjVspjLbQpY/QkryPifpWO3EviUJeicQ3g4JYJf7u8+AA==
@@ -6994,7 +6994,7 @@ gatsby-plugin-styled-components@^3.1.2:
   dependencies:
     "@babel/runtime" "^7.11.2"
 
-gatsby-plugin-transition-link@^1.12.4:
+gatsby-plugin-transition-link@^1.20.5:
   version "1.20.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-transition-link/-/gatsby-plugin-transition-link-1.20.5.tgz#c4e8ca7b69dee029436b67964f8915f2a46090ee"
   integrity sha512-0Hm//+hgVv3fDpKtZiTVfNqaVBrYwbVeE22auCwqBgaoluGkRZbr9IrOrJyhM5OZU5hIjuZmxvHNuLu4UfagQg==
@@ -7857,10 +7857,10 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gsap@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-2.1.3.tgz#c63ee3a50f0b7dc3b46ed0845bb0f09049feb944"
-  integrity sha512-8RFASCqi2FOCBuv7X4o7M6bLdy+1hbR0azg+MG7zz+EVsI+OmJblYsTk0GEepQd2Jg/ItMPiVTibF7r3EVxjZQ==
+gsap@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.5.1.tgz#36cf76787d1758e749469d5e9cbe365c186544c4"
+  integrity sha512-EMV0RSUKZNeTUzLKAizGlwxVOUyif3/g8I3S1aA/hf3gbqwBvmQ02x1RdTBQNQMOpHCVBv9y/vaHwfctoAg8zw==
 
 gud@^1.0.0:
   version "1.0.0"
@@ -10728,7 +10728,7 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netlify-cms-app@^2.9.7:
+netlify-cms-app@^2.13.2:
   version "2.13.2"
   resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.13.2.tgz#c32b9f70278a7bd27bcc4639bc3bd84802228086"
   integrity sha512-/3fzRO38X0w02aWC/WCGDsoi34OsgiLpC6LRvtJ+69aHmyKfFiT5TsjJEioX2O8ASrO3rGicNtF6f/3V88VcDQ==
