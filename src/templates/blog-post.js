@@ -5,7 +5,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import Comments from "../components/Comments"
-import * as S from "../components/post/styles"
+import * as S from "../components/Post/styles"
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
