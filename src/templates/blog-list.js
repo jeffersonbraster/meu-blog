@@ -24,14 +24,7 @@ const BlogList = props => {
         {postList.map(
           ({
             node: {
-              frontmatter: {
-                background,
-                category,
-                date,
-                description,
-                title,
-                cover,
-              },
+              frontmatter: { background, category, date, description, title },
               timeToRead,
               fields: { slug },
             },
@@ -45,7 +38,6 @@ const BlogList = props => {
               timeToRead={timeToRead}
               title={title}
               description={description}
-              cover={cover}
             />
           )
         )}
