@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia-querys")
 module.exports = {
   siteMetadata: {
     title: `Jefferson Brandão`,
-    position: `Backend Developer`,
+    position: `Developer`,
     description: `Apaixonado por programação, escrevo sobre as noticias do universo TI.`,
     author: `@jeffersonbrandao`,
     siteUrl: `https://jeffersonbrandao.netlify.app/`,
@@ -41,7 +41,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: "gatsby-remark-relative-images-v2",
             options: {
               name: "uploads",
             },
@@ -59,6 +59,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

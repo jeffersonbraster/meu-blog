@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react"
 import * as S from "./styles"
 import getThemeColor from "../../utils/getThemeColor"
 
-import { Home } from "styled-icons/boxicons-solid/Home"
-import { SearchAlt2 as Search } from "styled-icons/boxicons-regular/SearchAlt2"
-import { UpArrowAlt as Arrow } from "styled-icons/boxicons-regular/UpArrowAlt"
-import { LightBulb as Light } from "styled-icons/octicons/LightBulb"
-import { GridAlt as Grid } from "styled-icons/boxicons-regular/GridAlt"
-import { ThList as List } from "styled-icons/typicons/ThList"
+import { Home } from "@styled-icons/boxicons-solid/Home"
+import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
+import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
+import { Lightbulb as Light } from "@styled-icons/material-outlined/Lightbulb"
+import { GridAlt as Grid } from "@styled-icons/boxicons-regular/GridAlt"
+import { ThList as List } from "@styled-icons/typicons/ThList"
 
 const MenuBar = () => {
   const [theme, setTheme] = useState(null)
